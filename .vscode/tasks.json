@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build hello.cpp",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "hello.cpp",
+        "-o",
+        "hello.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
